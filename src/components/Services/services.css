@@ -1,0 +1,10 @@
+.service {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  position: relative;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=services.css.map */

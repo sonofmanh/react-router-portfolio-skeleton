@@ -1,0 +1,41 @@
+.nav_holder {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    width: 100vw;
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0em;
+    #house {
+        font-size: 2em;
+        color: #000;
+        margin-left: 2em;
+        align-items: center;
+        display: flex;
+    }
+
+    .link {
+        margin-left: auto;
+        display: flex;
+        width: fit-content;
+        gap: 1em;
+        margin-right: 0.5em;
+
+        .navlinks {
+            text-transform: capitalize;
+            text-decoration: none;
+            color: black;
+            align-items: center;
+            padding: 0.2em 0.6em;
+            &:nth-child(1) {
+                border: 1px solid #000;
+                border-radius: 0.2em;
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

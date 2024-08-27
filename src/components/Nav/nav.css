@@ -1,0 +1,40 @@
+.nav_holder {
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+  width: 100vw;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0em;
+}
+.nav_holder #house {
+  font-size: 2em;
+  color: #000;
+  margin-left: 2em;
+  align-items: center;
+  display: flex;
+}
+.nav_holder .link {
+  margin-left: auto;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 1em;
+  margin-right: 0.5em;
+}
+.nav_holder .link .navlinks {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  padding: 0.2em 0.6em;
+}
+.nav_holder .link .navlinks:nth-child(1) {
+  border: 1px solid #000;
+  border-radius: 0.2em;
+}
+.nav_holder .link .navlinks:nth-child(1):hover {
+  background-color: #000;
+  color: #fff;
+}/*# sourceMappingURL=nav.css.map */
